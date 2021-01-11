@@ -1,0 +1,383 @@
+
+.navigic {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.searchic {
+  margin-right: 20%;
+}
+@media only screen and (max-width: 992px) {
+  .navigic {
+    margin-left: auto;
+    margin-right: auto;
+  }
+.searchic {
+  display: none;
+}
+}
+
+.namelink, .namelink:hover, .namelink:focus, .namelink:active {
+  color: #e8efeb;
+  text-decoration: inherit;
+
+}
+
+.contacts {
+  margin: 0;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 4%;
+  padding-bottom: 10%;
+  height: 100%;
+}
+
+
+.table {
+  padding: 10px;
+  box-shadow: 0  2px 5px #e8efeb;
+
+}
+#numnum {
+  color: red;
+}
+ #emailemail {
+   color: red;
+ }
+.first {
+  margin-right: 5%;
+  float: left;
+  width: 30%;
+  margin-bottom: 25px;
+}
+
+.second {
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  width: 30%;
+  margin-bottom: 25px;
+}
+
+.third {
+  margin-left: 5%;
+  float: left;
+  width: 30%;
+  margin-bottom: 25px;
+
+}
+
+@media only screen and (max-width: 992px) {
+  .first {
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    width: 80%;
+    margin-top: 5%;
+  }
+
+  .second {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    width: 80%;
+    margin-bottom:10%;
+    margin-top: 10%;
+  }
+
+  .third {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    width: 80%;
+    margin-bottom: 0;
+  }
+
+}
+@media only screen and (max-width: 768px) {
+  .first {
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  .second {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    width: 100%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+  }
+
+  .third {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+}
+/*ec0101*/
+h1 {
+    display: inline-block;
+    padding-bottom: 10px;
+    position: relative;
+}
+h1:before{
+    content: "";
+    position: absolute;
+    width: 33%;
+
+    bottom: 0;
+    left: 35%;
+    border-bottom: 4px solid red;
+}
+.h1div {
+  margin-bottom: 5%;
+}
+.anclet {
+  padding-bottom: 5%;
+}
+.alink {
+  display: inline-block;
+  margin: 2%;
+}
+.alink:link {
+  text-decoration: none;
+  color: #838383;
+}
+
+.alink:visited {
+  text-decoration: none;
+  color: #838383;
+}
+
+.alink:hover {
+  text-decoration: none;
+  color: #838383;
+}
+
+.alink:active {
+  text-decoration: none;
+  color: #838383;
+}
+
+.contname {
+  cursor: pointer;
+}
+.beyin {
+  display: none;
+}
+.copyr {
+  display: block;
+  position: relative;
+  padding-top: 10%;
+  padding-bottom: 3%;
+  text-align: center;
+}
+.copp {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8%;
+  margin-bottom: 2%;
+  font-size: 0.8rem;
+}
+@media only screen and (max-width: 768px) {
+  .copyr {
+    display: block;
+    position: relative;
+    padding-top: 3%;
+    padding-bottom: 10%;
+    text-align: center;
+  }
+  .copp {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 8%;
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .copyr {
+    display: block;
+    position: relative;
+    padding-top: 3%;
+    padding-bottom: 8%;
+    text-align: center;
+  }
+  .copp {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 8%;
+    font-size: 0.8rem;
+  }
+  .addnewbtn {
+    height: 200px;
+    padding-top: 40px;
+  }
+}
+@media only screen and (max-width: 1600px) and (min-width: 992px) {
+  #contprof {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .contacts {
+    height: 800px;
+  }
+  .copyr {
+    display: block;
+    position: relative;
+    padding-top: 8%;
+    padding-bottom: 3%;
+    text-align: center;
+  }
+  .copp {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    font-size: 0.8rem;
+  }
+  .sdbtn {
+    margin-left: 6%;
+    padding: 4% 10% 4% 10%;
+
+  }
+  .addnewbtn {
+    height: 200px;
+    padding-top: 40px;
+  }
+}
+#butplus {
+  	position:fixed;
+  	width:60px;
+  	height:60px;
+  	bottom:50px;
+  	right:35px;
+  	background-color:red;
+  	color:#FFF;
+  	border-radius:100%;
+  	text-align:center;
+  	box-shadow: 2px 2px 3px #999;
+  }
+
+  .my-float{
+  	margin-top:22px;
+  }
+
+.tableh {
+  color: #999;
+}
+
+.profile {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  width: 300px;
+  box-shadow: none;
+}
+
+.profilediv {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.btns {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  margin-top: 3%;
+}
+.sdbtn {
+  margin-left: 6%;
+  padding: 4% 10% 4% 10%;
+}
+
+@media only screen and (max-width: 768px) {
+  .btns {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    margin-top: 8%;
+    margin-bottom:40%;
+}
+#addbtn {
+  padding-left: 25px;
+  padding-right:25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+#contprof {
+  margin-top: 50px;
+}
+
+  }
+  @media only screen and (max-width: 992px) {
+    .btns {
+      margin-left: auto;
+      margin-right: auto;
+      width: 200px;
+      margin-top: 8%;
+      margin-bottom:40%;
+    }
+
+    .addnewbtn {
+      height: 200px;
+      padding-top: 40px;
+    }
+    .copyr {
+      display: block;
+      position: relative;
+      padding-top: 8%;
+      padding-bottom: 3%;
+      text-align: center;
+    }
+    .copp {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2%;
+      margin-bottom: 4%;
+      font-size: 0.8rem;
+    }
+    #contprof {
+      margin-top: 60px;
+    }
+  }
+
+#addbtn {
+  padding-left: 25px;
+  padding-right:25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+/* @media only screen and (max-width: 970px)
+.ws2 .navigation__item {
+    font-size: 20px;
+    pointer-events: auto;
+    font-family: "VodafoneRegular";
+}
+
+
+/*Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+/*@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+/*@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/*@media only screen and (min-width: 1200px) {...}
+    }
